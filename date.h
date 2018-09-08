@@ -2,7 +2,7 @@
 #define DATE_H
 
 typedef struct {
-	int date, month, year;
+    int date, month, year;
 } _date;
 
 void input_date(_date *date);
